@@ -9,7 +9,7 @@
 
 在 Alfred Workflow 的 Canvas 界面中 Script Filter 的设置如下:
 
-- Keyword: afwf-example-memorize-cache, Argument Required
+- Keyword: afwf-findref-memorize-cache, Argument Required
 - Language: /bin/bash
 - Script: python main.py 'memorize_cache {query}'
 """
