@@ -783,13 +783,13 @@ typing = ["typing-extensions (>=4.8)"]
 
 [[package]]
 name = "findref"
-version = "0.1.3"
+version = "0.2.1"
 description = "Find technical reference document in terminal."
 optional = false
 python-versions = "*"
 files = [
-    {file = "findref-0.1.3-py3-none-any.whl", hash = "sha256:8101bd969d3d17228cc75ce9b80fee0fa2ebdcd00b4d7019fa67571cc3899ed6"},
-    {file = "findref-0.1.3.tar.gz", hash = "sha256:73c0066709e0e1c56ca6afaff880530a8d09f6a40133c79cf13855c9002b4cdd"},
+    {file = "findref-0.2.1-py3-none-any.whl", hash = "sha256:4345d8f3a7b42bc7d5ffee17826d9caddd7d34faf8716005a44e842e06e6e013"},
+    {file = "findref-0.2.1.tar.gz", hash = "sha256:ce99740ea13ffaec9023c8306ab128ba34ef347a3fb232c0733fc57784d62f95"},
 ]
 
 [package.dependencies]
@@ -1098,13 +1098,13 @@ test = ["coverage", "ipykernel (>=6.14)", "mypy", "paramiko", "pre-commit", "pyt
 
 [[package]]
 name = "jupyter-core"
-version = "5.5.1"
+version = "5.6.1"
 description = "Jupyter core package. A base package on which Jupyter projects rely."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "jupyter_core-5.5.1-py3-none-any.whl", hash = "sha256:220dfb00c45f0d780ce132bb7976b58263f81a3ada6e90a9b6823785a424f739"},
-    {file = "jupyter_core-5.5.1.tar.gz", hash = "sha256:1553311a97ccd12936037f36b9ab4d6ae8ceea6ad2d5c90d94a909e752178e40"},
+    {file = "jupyter_core-5.6.1-py3-none-any.whl", hash = "sha256:3d16aec2e1ec84b69f7794e49c32830c1d950ad149526aec954c100047c5f3a7"},
+    {file = "jupyter_core-5.6.1.tar.gz", hash = "sha256:5139be639404f7f80f3db6f687f47b8a8ec97286b4fa063c984024720e7224dc"},
 ]
 
 [package.dependencies]
@@ -1455,13 +1455,13 @@ test = ["flaky", "ipykernel (>=6.19.3)", "ipython", "ipywidgets", "nbconvert (>=
 
 [[package]]
 name = "nbconvert"
-version = "7.13.1"
+version = "7.14.0"
 description = "Converting Jupyter Notebooks"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "nbconvert-7.13.1-py3-none-any.whl", hash = "sha256:3c50eb2d326478cc90b8759cf2ab9dde3d892c6537cd6a5bc0991db8ef734bcc"},
-    {file = "nbconvert-7.13.1.tar.gz", hash = "sha256:2dc8267dbdfeedce2dcd34c9e3f1b51af18f43cb105549d1c5a18189ec23ba85"},
+    {file = "nbconvert-7.14.0-py3-none-any.whl", hash = "sha256:483dde47facdaa4875903d651305ad53cd76e2255ae3c61efe412a95f2d22a24"},
+    {file = "nbconvert-7.14.0.tar.gz", hash = "sha256:92b9a44b63e5a7fb4f6fa0ef41261e35c16925046ccd1c04a5c8099bf100476e"},
 ]
 
 [package.dependencies]
@@ -3028,4 +3028,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "ce2ff7f99f1a9b0d4757ed273bd2d285760a40b6a1d1dcb66f225353a2eb175e"
+content-hash = "4fdbb70bffaba03e2d888d04c786e8bb9e6a5a2dc1873bbd0151e329dfd73211"

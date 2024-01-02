@@ -6,7 +6,6 @@
 import attrs
 import afwf.api as afwf
 from findref.models import (
-    DataSetEnum,
     create_sayt_dataset,
 )
 from findref.ui import (
@@ -14,7 +13,6 @@ from findref.ui import (
     preprocess_query,
 )
 
-from ..cache import cache
 from ..paths import dir_cache, dir_index
 
 
